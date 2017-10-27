@@ -1,15 +1,28 @@
-h1 {
-  font-family: 'Galada', cursive;
-  color: #C40D22;
-  font-size: 48pt;
-}
+#wrapper {
+  width: 1280px;
+  margin: 20px auto;
 
-h2{
-  font-family: 'Galada', cursive;
-  color: #E5001B;
-  font-size: 36;
 }
+.logo{
+    background-color: #dfc649;
+    padding: 3px 3px 3px 3px;
+    color: white;
+    font-family: 'Galada', cursive;
+    font-size: 50px;
+    position: absolute;
+    float: left;
+    text-align: center;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  float: left;}
 
+}
+ul{
+    float: right;
+}
+/*nav menu*/
 a:link {
   color: #615556;
 }
@@ -17,16 +30,28 @@ a:link {
 a:hover {
   color: #824E54;
 }
+header{
+    background-color:#ff1313;
+    width: 100%;
+    margin:
 
-nav {
-  font-family: 'Pragati Narrow', sans-serif;
-  /* border:1px
-  solid black; */
-  color: : #615556;
+}
+nav{
+  width: 25px;
+  height: 80px;
+  padding: 25px 20px;
   text-align: right;
-  font-size: 22px;
-  }
-
+}
+li{
+  display: inline;
+  font-size: 20px;
+  padding: 20px;}
+/*about us*/
+ h2{
+  font-family: 'Galada', cursive;
+  color: #E5001B;
+  font-size: 36;
+}
 /* .pic1 {
   border:1px
   solid black;
@@ -35,7 +60,7 @@ nav {
 p{
     font-family: 'Pragati Narrow', sans-serif;
 }
-.blurb {
+.aboutdescription {
   font-family: 'Pragati Narrow', sans-serif;
 /*  border:1px
   solid black; */
