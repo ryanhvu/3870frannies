@@ -1,61 +1,72 @@
+
+body{
+  margin: 0;
+}
 #wrapper {
   width: 1280px;
-  margin: 20px auto;
-
+  margin: 0px auto;
 }
-.logo{
+#logo{
     background-color: #dfc649;
-    padding: 3px 3px 3px 3px;
+    padding: 7px;
+    margin-left: 50px;
     color: white;
-    font-family: 'Galada', cursive;
-    font-size: 50px;
     position: absolute;
     float: left;
+    display: flex;
     text-align: center;
+
 }
 h1{
   color: white;
   font-size: 50px;
-  float: left;}
+  font-family: 'Galada', cursive;
+  }
 
-}
-ul{
-    float: right;
-}
+
 /*nav menu*/
-a:link {
-  color: #615556;
+
+header{
+    width: 1280px;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ff1313;
+    overflow: hidden;
 }
 
-a:hover {
+.topnav a{
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
   color: #824E54;
 }
-header{
-    background-color:#ff1313;
-    width: 100%;
-    margin:
 
+.topnav a.active {
+    background-color: darkred;
+    color: white;
 }
-nav{
-  width: 25px;
-  height: 80px;
-  padding: 25px 20px;
-  text-align: right;
-}
-li{
-  display: inline;
-  font-size: 20px;
-  padding: 20px;}
+
 /*about us*/
  h2{
   font-family: 'Galada', cursive;
   color: #E5001B;
-  font-size: 36;
+  font-size: 36px;
 }
-/* .pic1 {
-  border:1px
-  solid black;
-} */
+ .pic1 {
+  width: 100%;
+  border:1px solid black;
+  padding: 5px;
+  margin: 15px auto;
+}
 
 p{
     font-family: 'Pragati Narrow', sans-serif;
@@ -65,9 +76,15 @@ p{
 /*  border:1px
   solid black; */
   text-align: center;
+  width: 100%;
+  margin: 15px auto;
+  padding-left: 15px;
 }
 
 footer{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
   font-family: 'Pragati Narrow', sans-serif;
   font-size: 12px;
   text-align: center;
