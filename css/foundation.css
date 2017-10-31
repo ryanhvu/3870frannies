@@ -4446,11 +4446,11 @@ select {
     height: 1.2rem;
     margin: 0.1rem;
     border-radius: 50%;
-    background-color: #cacaca; }
+    background-color: #d68484; }
     .orbit-bullets button:hover {
-      background-color: #8a8a8a; }
+      background-color: darkred; }
     .orbit-bullets button.is-active {
-      background-color: #8a8a8a; }
+      background-color: darkred; }
 
 .pagination {
   margin-left: 0;
