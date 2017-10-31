@@ -121,8 +121,7 @@ dd {
 
 figure{
   display: inline-block;
-  margin: 10px;
-  /*padding: 40px;*/
+  margin: 10px auto;
   width: 200px;
 
 }
