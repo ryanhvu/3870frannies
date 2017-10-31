@@ -127,6 +127,65 @@ figure{
 
 }
 
+/*menu*/
+.menutitle h2 {
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+h3  {
+  font-family: 'Galada', cursive;
+  color: #E5001B;
+  font-size: 30px;
+
+}
+.menunav a:link {
+  font-family: 'Anton', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+
+}
+/*#soup {
+  background-image: url(../pictures/soup.jpg);
+  background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: padding-box;
+}*/
+#soup a:link {
+  background-image: url(../pictures/soup.jpg);
+  background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: padding-box;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+}
+#soup a:hover {
+  opacity: 1.0;
+   filter: alpha(opacity=100); /* For IE8 and earlier */
+   background-image: url(../pictures/soup.jpg);
+   background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-clip: padding-box;
+     display: block;
+     width: 100%;
+     text-align: center;
+     line-height: 100px;
+     font-family: 'Anton', sans-serif;
+     color: black;
+     font-size: 25px;
+     padding: 20px;
+     text-decoration: none;
+}
 
 
 .food {
