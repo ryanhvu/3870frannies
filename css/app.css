@@ -81,6 +81,25 @@ p{
   padding-left: 15px;
 }
 
+.food {
+  font-family: 'Pragati Narrow', sans-serif;
+  text-align: justify;
+  padding-left: 300px;
+  width: 100%;
+/*  margin: 15px auto;
+  padding-left: 15px; */
+}
+
+.foodprice {
+  font-family: 'Pragati Narrow', sans-serif;
+  text-align: justify;
+  text-align: right;
+  width: 100%;
+  padding-top: 12px;
+  /*margin: 15px auto;
+  padding-left: 15px;*/
+}
+
 footer{
   width: 100%;
   margin: 10px;
