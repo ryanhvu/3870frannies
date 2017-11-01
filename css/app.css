@@ -440,7 +440,7 @@ footer{
   #logo{
       background-color: #dfc649;
       padding: 30px;
-      margin-top: 1em;
+      margin-top: .5em;
       margin-left: 17em;
       color: white;
       position: absolute;
@@ -497,6 +497,7 @@ header{
      font-size: 17px;
      font-family: 'Quicksand', sans-serif;
  }
+
  .mobilenav a:hover {
    padding-left: 22em;
    padding-right: 25em;
@@ -508,8 +509,8 @@ header{
    margin-left: 0;
    padding-left: 22em;
    padding-right: 25em;
-     background-color: darkred;
-     color: white;
+   background-color: darkred;
+   color: white;
  }
 
  .topnav {
@@ -586,4 +587,5 @@ p{
 .topnav a.active {
     background-color: darkred;
     color: white;
+}
 }
