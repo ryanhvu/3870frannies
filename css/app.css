@@ -73,6 +73,36 @@ h3{
   font-size: 1.2em;
 
 }
+h4{
+  font-family: 'Galada', cursive;
+  font-size: 36px;
+}
+
+.aboutpage{
+  font-family: 'Galada', cursive;
+  color: #E5001B;
+  padding: 30px 16px;
+  line-height: 65px;
+
+}
+
+#orderonline{
+  font-family: 'Galada', cursive;
+  color: white;
+  font-size: 40px;
+  background-color: #E5001B;
+
+}
+
+.aboutpage p{
+  color: black;
+  font-size: 20px;
+}
+.imgabout{
+  width: 100%;
+  height: 100%;
+  margin: 7px;
+}
  .slideshow {
   width: 100%;
   padding: 5px;
