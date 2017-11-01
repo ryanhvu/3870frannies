@@ -266,11 +266,6 @@ display:table
   padding-left: 15px;*/
 }
 
-.yelp{
-width: 50%;
-height: auto;
-
-}
 .contact-us-section {
   padding: 2rem;
   background: #fefefe;
@@ -323,7 +318,8 @@ height: auto;
 .contact-us-form input[type=text],
 .contact-us-form input[type=email],
 .contact-us-form textarea {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  width: 13rem;
 }
 
 .contact-us-form-actions {
@@ -339,7 +335,7 @@ height: auto;
 }
 
 .contact-us-form-actions input[type=submit] {
-  border-radius: 5000px;
+  border-radius: 500px;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -436,7 +432,84 @@ footer{
 
 /* Small only */
 @media screen and (max-width: 39.99em) {
+  /*Body*/
+  #wrapper {
+    width: 800px;
+    margin: 0px auto;
+  }
 
+  footer{
+    width: 100%;
+    margin-left: 115px;
+    padding: 0px;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /*Order Online Page*/
+  .aboutpage{
+    font-family: 'Galada', cursive;
+    color: #E5001B;
+    /*padding: 30px 16px;*/
+    /*line-height: 65px;*/
+    margin-left: 250px;
+    display: block;
+    text-align: center;
+  }
+
+  .orderonline{
+    font-family: 'Galada', cursive;
+    color: white;
+    font-size: 40px;
+    background-color: #E5001B;
+    text-align: center;
+  }
+
+  /*.contact-us-form-actions input[type=submit] {
+    border-radius: 500px;
+    padding-left: 2em;
+    padding-right: 2em;
+  }*/
+
+  .contact-us-form{
+    margin: 0px 0px 16px 0px;
+     height: 300px;
+      width: 222px;
+  }
+
+  /*.contact-us-section {
+    padding: 2em;
+    background: #fefefe;
+  }
+
+  .contact-us-section .contact-us-section-left {
+    padding-right: 2em;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+  }*/
+
+  .imgabout{
+    display:none;
+  }
+
+  h4{
+      font-family: 'Galada', cursive;
+      font-size: 36px;
+      text-align: center;
+  }
+
+.contact-us-header{
+  margin-left: 35px;
+}
+
+  .form{
+    margin-top: 0;
+    margin-left: 275px;
+  }
+
+/*Header*/
   #logo{
       background-color: #dfc649;
       padding: 30px;
@@ -457,6 +530,47 @@ header{
     width: 800px;
   }
 
+  .mobilenav {
+      background-color: #ff1313;
+      overflow: hidden;
+      border-radius: 0px 0px 12px 12px;
+      float: center;
+      text-align: center;
+      margin-top: 90px;
+      padding: 15px 13px 15px 0px;
+  }
+
+  .mobilenav a{
+      float: center;
+      display: inline-flex;
+      color: #f2f2f2;
+      text-align: center;
+      /*padding: 10px 32px;*/
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Quicksand', sans-serif;
+  }
+
+  .mobilenav a:hover {
+    padding-left: 22em;
+    padding-right: 25em;
+    background-color: white;
+    color: black;
+  }
+
+  .mobilenav a.active {
+    margin-left: 0;
+    padding-left: 22em;
+    padding-right: 25em;
+    background-color: darkred;
+    color: white;
+  }
+
+  .topnav {
+    display:none;
+  }
+
+/*Index*/
 .slideshow {
    max-width: 800px;
    max-height: auto;
@@ -464,57 +578,13 @@ header{
    padding: 25px;
  }
 
- #wrapper {
-   width: 800px;
-   margin: 0px auto;
- }
+
 
  figure{
    display: inline-block;
    margin-left: 2.5em;
    /*margin: 10px auto;
    width: 200px;*/
-
- }
-
- .mobilenav {
-     background-color: #ff1313;
-     overflow: hidden;
-     border-radius: 0px 0px 12px 12px;
-     float: center;
-     text-align: center;
-     margin-top: 90px;
-     padding: 15px 13px 15px 0px;
- }
-
- .mobilenav a{
-     float: center;
-     display: inline-flex;
-     color: #f2f2f2;
-     text-align: center;
-     /*padding: 10px 32px;*/
-     text-decoration: none;
-     font-size: 17px;
-     font-family: 'Quicksand', sans-serif;
- }
-
- .mobilenav a:hover {
-   padding-left: 22em;
-   padding-right: 25em;
-   background-color: white;
-   color: black;
- }
-
- .mobilenav a.active {
-   margin-left: 0;
-   padding-left: 22em;
-   padding-right: 25em;
-   background-color: darkred;
-   color: white;
- }
-
- .topnav {
-   display:none;
  }
 
  dt {
