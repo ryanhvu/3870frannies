@@ -176,6 +176,7 @@ display:table
 .menucard a:hover {
        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+<<<<<<< HEAD
 
 .menucard{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -183,6 +184,15 @@ display:table
   width: 40%;
 }
 
+=======
+
+.menucard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+>>>>>>> 853642760ce8a868ebcd1aaccaf3dbf5b060d21e
 .menucard a, .menucard img{margin:0; padding:0;}
 .small-up-4{
   height: 300px;
