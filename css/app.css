@@ -193,9 +193,19 @@ display:table
 }
 
 >>>>>>> 853642760ce8a868ebcd1aaccaf3dbf5b060d21e
-.menucard a, .menucard img{margin:0; padding:0;}
+.menucard a, .menucard img{
+  margin:0; padding:0;
+}
+.menucard{
+  transition: all 0.2s linear;
+  padding: 10px;
+}
+.menucard:hover {
+  box-shadow: 0px 0px 8px 10px gray;
+}
+
 .small-up-4{
-  height: 300px;
+  height: 310px;
 }
 
 }
@@ -207,44 +217,7 @@ display:table
   padding: 20px;
 
 }
-/*#soup {
-  background-image: url(../pictures/soup.jpg);
-  background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-clip: padding-box;
-}*/
-#soup a:link {
-  background-image: url(../pictures/soup.jpg);
-  background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-clip: padding-box;
-    display: block;
-    width: 100%;
-    text-align: center;
-    line-height: 100px;
-    font-family: 'Anton', sans-serif;
-    color: black;
-    font-size: 25px;
-    padding: 20px;
-    text-decoration: none;
-}
-#soup a:hover {
-  opacity: 1.0;
-   filter: alpha(opacity=100); /* For IE8 and earlier */
-   background-image: url(../pictures/soup.jpg);
-   background-repeat: no-repeat;
-     background-position: 50% 50%;
-     background-clip: padding-box;
-     display: block;
-     width: 100%;
-     text-align: center;
-     line-height: 100px;
-     font-family: 'Anton', sans-serif;
-     color: black;
-     font-size: 25px;
-     padding: 20px;
-     text-decoration: none;
-}
+
 
 
 .food {
@@ -437,7 +410,14 @@ footer{
     width: 450px;
     margin: 0px auto;
   }
+.topnav{
+  width: 100%;
+  margin: 0;
+}
+li{
+  display: flex;
 
+}
   footer{
     width: 100%;
     margin-left: 15px;
@@ -530,45 +510,7 @@ header{
     width: 450px;
   }
 
-  .mobilenav {
-      background-color: #ff1313;
-      overflow: hidden;
-      border-radius: 0px 0px 12px 12px;
-      float: center;
-      text-align: center;
-      margin-top: 90px;
-      padding: 15px 13px 15px 0px;
-  }
 
-  .mobilenav a{
-      float: center;
-      display: inline-flex;
-      color: #f2f2f2;
-      text-align: center;
-      /*padding: 10px 32px;*/
-      text-decoration: none;
-      font-size: 17px;
-      font-family: 'Quicksand', sans-serif;
-  }
-
-  .mobilenav a:hover {
-    padding-left: 200px;
-    padding-right: 210px;
-    background-color: white;
-    color: black;
-  }
-
-  .mobilenav a.active {
-    margin-left: 0;
-    padding-left: 200px;
-    padding-right: 210px;
-    background-color: darkred;
-    color: white;
-  }
-
-  .topnav {
-    display:none;
-  }
 
 /*Index*/
 .slideshow {
