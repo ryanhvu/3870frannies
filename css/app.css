@@ -1,3 +1,7 @@
+a:link{color: #f2f2f2;}
+a:visited{color: #f2f2f2;}
+
+}
 
 body{
   margin: 0;
@@ -31,31 +35,31 @@ h1{
 header{
     width: 1280px;
     margin-bottom: 30px;
-
-}
-/* Add a black background color to the top navigation */
-.topnav {
+    width: 100%;
     background-color: #ff1313;
-    overflow: hidden;
     border-radius: 0px 0px 12px 12px;
+
 }
 
-.topnav a{
-    float: right;
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Quicksand', sans-serif;
+nav{
+  float: right;
+  overflow: hidden;
 }
-.topnav a:hover {
+li{
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 14px 16px;
+}
+li:hover {
   background-color: white;
+  text-shadow: 1px 1px gray;
   color: black;
+  font-weight: bold;
 }
 
-.topnav a.active {
+.active{
     background-color: darkred;
     color: white;
 }
@@ -407,17 +411,22 @@ footer{
 @media screen and (max-width: 450px) {
   /*Body*/
   #wrapper {
-    width: 450px;
+    width: 380px;
     margin: 0px auto;
   }
-.topnav{
-  width: 100%;
-  margin: 0;
+header{
+  margin-top: 110px;
+  border-radius: 12px 12px 12px 12px;
+}
+nav{
+    float: left;
+    width: 100%;
 }
 li{
   display: flex;
-
+  width: 100%;
 }
+
   footer{
     width: 100%;
     margin-left: 15px;
@@ -513,6 +522,7 @@ header{
 
 
 /*Index*/
+.slideshow img {height: 250px;}
 .slideshow {
    max-width: 800px;
    max-height: auto;
